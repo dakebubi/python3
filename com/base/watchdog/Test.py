@@ -4,12 +4,15 @@ import time
 
 from watchdog.events import LoggingEventHandler
 from watchdog.observers import Observer
-
+from com.base.watchdog import print1
 """
 监控指定目录下文件（文件夹）变更情况
 """
 
-if __name__ == "__main__":
+
+
+def doSomething():
+    print(print1())
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(message)s',
                         datefmt='%Y-%m-%d %H:%M:%S')
