@@ -18,3 +18,5 @@ test = InitTest1({"spring", "cloud"})
 test.printSelf()
 print(test.local_attr1)
 print(test.local_attr2)
+
+print(False.__eq__(0))
